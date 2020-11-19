@@ -1,2 +1,2 @@
 # FPS_Survival_DeadEarth
-FPS survival game project
+Learning and developing FPS survival game project

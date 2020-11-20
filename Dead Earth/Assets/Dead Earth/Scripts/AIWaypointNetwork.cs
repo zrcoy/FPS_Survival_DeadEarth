@@ -20,4 +20,17 @@ public class AIWaypointNetwork : MonoBehaviour
     
     
     [SerializeField] public List<Transform> wayPoints = null;
+
+
+    public bool HasWaypoint()
+    {
+        foreach(Transform transform in wayPoints)
+        {
+            if(transform!=null)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
 }
